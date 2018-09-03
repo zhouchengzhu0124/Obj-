@@ -1,0 +1,74 @@
+@import 'base.less';
+
+#main{
+    padding: 45px 0;
+    background-color: #fff;
+    #nav{
+        padding: 10px;
+        a{
+            display: block;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #banner{
+        padding: 0 10px;    
+        box-shadow: 0 0 1px #ccc;
+        .mui-col-xs-8{
+            img{
+                width: 50%;
+                float: left;
+            }
+        }
+        .mui-col-xs-4{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    #brand{
+        >img{
+            width: 100%;
+        }
+        .mui-row{
+            a{  
+                display: block;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #sport,#woman,#man {
+        padding: 10px;
+        .title{
+            img{
+                width: 100%;
+            }
+        }
+        .mui-col-xs-6{
+            padding: 0 5px;
+            &:nth-child(n+3){
+                margin-top: 10px;
+            }
+            a{
+                .box{
+                    text-align: center;
+                    box-shadow: 0 0 1px #ccc;
+                    img{
+                        width: 100%;
+                    }
+                    p{
+                        span{
+                            color: #f30;
+                        }
+                    }
+                    button{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
